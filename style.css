@@ -1,0 +1,36 @@
+@charset "UTF-8";
+main {
+  max-width: 1000px;
+  margin: 0 auto;;
+}
+#pocky {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 130px;
+  height: 200px;
+  border: 1px solid #333;
+  background-color: #ff2222;
+}
+#pocky p {
+  width: 100%;
+  padding: .3em;
+  background-color: #fff;
+  font-weight: bold;
+  text-align: center;
+}
+#get_area {
+  display: flex;
+  justify-content: flex-end;
+  width: 130px;
+  height: 250px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+#get_area p {
+  width: 3px;
+  height: 150px;
+  margin-left: 2px;
+  background-color: rgb(59, 23, 1);
+}
+
